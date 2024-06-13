@@ -1,0 +1,338 @@
+[
+    {
+        "id": 29.0,
+        "question_content": "What is the correct way to create a function in Python? \nA.function myfunction(): \nB.def myFunction():\nC.create myFunction(): \nD.-1\nE.-1\nF.-1)"
+    },
+    {
+        "id": 35.0,
+        "question_content": "Which of the following statements best describes the behavior of the random.shuffle(mylist) as being used in the below code fragment?  import random mylist = [10, 20, 30] random.shuffle(mylist) print(mylist)   \nA. return a list where elements 10, 20 and 30 would be at random positions.  \nB.It'll not modify the list. This function is just a placeholder and yet to be implemented.\nC.shuffle the elements of the list in-place. \nD.shuffle the elements for the no. of times equal to the size of the list.\nE.-1\nF.-1)"
+    },
+    {
+        "id": 125.0,
+        "question_content": "What value be in the variable x when the following statement is executed x = int(98.6) \nA.100 \nB.99\nC.98 \nD.6\nE.-1\nF.-1)"
+    },
+    {
+        "id": 148.0,
+        "question_content": "Which Python keyword indicates the start of a function definition? \nA.help \nB.rad\nC.break \nD.def\nE.-1\nF.-1)"
+    },
+    {
+        "id": 149.0,
+        "question_content": "In Python, how do you indicate the end of the block of code that makes up the function?  \nA.You put a # character at the end of the last line of the function \nB.You de-indent a line of code to the same indent level as the def keyword\nC.You add a line that has at least 10 dashes \nD.You put the colon character (:) in the first column of a line\nE.-1\nF.-1)"
+    },
+    {
+        "id": 150.0,
+        "question_content": "In Python what is the raw_input() feature best described as? \nA.A conditional statement \nB.A data structure that can hold multiple values using strings as keys\nC.A built-in function \nD.A reserved word\nE.-1\nF.-1)"
+    },
+    {
+        "id": 151.0,
+        "question_content": "What does the following code print out? def thing(): print('Hello')  print('There') \nA.thing \nB.Hello\nC.There \nD.There Hello def thing\nE.-1\nF.-1)"
+    },
+    {
+        "id": 152.0,
+        "question_content": "In the following Python code, which of the following is an \"argument\" to a function? x = 'banana' y = max(x) print(y) print(x)  \nA.y \nB.x\nC.print \nD.max\nE.-1\nF.-1)"
+    },
+    {
+        "id": 153.0,
+        "question_content": "What will the following Python code print out? def func(x) : print(x) func(10) func(20) \nA.10 20 \nB.x 10\nC.x 20 \nD.x x\nE.func func\nF.-1)"
+    },
+    {
+        "id": 154.0,
+        "question_content": "Which line of the following Python program is useless? def stuff(): print('Hello') return print('World') \nA.stuff() \nB.print('Hello')\nC.def stuff(): \nD.stuff()\nE.print('World')\nF.return)"
+    },
+    {
+        "id": 155.0,
+        "question_content": "What will the following Python program print out? def greet(lang): if lang == 'es': return 'Hola' elif lang == 'fr': return 'Bonjour' else: return 'Hello'  print(greet('fr'),'Michael')   \nA.Bonjour Michael \nB.Hello Michael\nC.def Michael \nD.Hola\nE.Bonjour\nF.Hello Michael)"
+    },
+    {
+        "id": 156.0,
+        "question_content": "What does the following Python code print out? (Note that this is a bit of a trick question and the code has what many would consider to be a flaw/bug - so read carefully). def addtwo(a, b): added = a + b return a x = addtwo(2, 7) print(x)   \nA.addtwo \nB.2\nC.9 D\u003e Traceback \nD.-1\nE.-1\nF.-1)"
+    },
+    {
+        "id": 157.0,
+        "question_content": "What is the most important benefit of writing your own functions? \nA.To avoid having more than 10 lines of sequential code without an indent or de-indent \nB.Following the rule that whenever a program is more than 10 lines you must use a function\nC.Following the rule that no function can have more than 10 statements in it \nD.Avoiding writing the same non-trivial code more than once in your program\nE.-1\nF.-1)"
+    },
+    {
+        "id": 169.0,
+        "question_content": "What does the following Python program print out? x = '40' y = int(x) + 2 print(y) \nA.42 \nB.x2\nC.402 \nD.int402\nE.-1\nF.-1"
+    },
+    {
+        "id": 252.0,
+        "question_content": "What is the default return value for a function that does not return any value explicitly? \nA.none\nB.int\nC.double \nD.public\nE.nan\nF.-1)"
+    },
+    {
+        "id": 253.0,
+        "question_content": "Which of the following items are present in the function header? \nA.function name \nB.function name and parameter list\nC.parameter list \nD.return value\nE.-1\nF.-1)"
+    },
+    {
+        "id": 254.0,
+        "question_content": "Which of the following enclose the input parameters or arguments of a function? \nA.brackets \nB.parentheses\nC.curly braces \nD.quotation marks\nE.-1\nF.-1)"
+    },
+    {
+        "id": 255.0,
+        "question_content": "Which of the following keywords marks the beginning of the function block? \nA.fun \nB.define\nC.def \nD.function\nE.-1\nF.-1)"
+    },
+    {
+        "id": 257.0,
+        "question_content": "Which of the following function definition does not return any value? \nA.a function that prints integers from 1 to 100. \nB.a function that returns a random integer from 1 to 100.\nC.a function that checks whether the current second is an integer from 1 to 100. \nD.a function that converts an uppercase letter to lowercase.\nE.-1\nF.-1)"
+    },
+    {
+        "id": 258.0,
+        "question_content": "Which of the following statements correctly represent the function body in the given code snippet? def f(number): # Missing function body print(f(5)) \nA. return \"number\"  \nB.print(number)\nC. print(\"number\")  \nD.return number\nE.-1\nF.-1)"
+    },
+    {
+        "id": 259.0,
+        "question_content": "What is the output of the following code snippet? def func(message, num = 1): print(message * num)  func('Welcome') func('Viewers', 3)  \nA.Welcome Viewers \nB.Welcome ViewersViewersViewers\nC. Welcome Viewers,Viewers,Viewers  \nD.Welcome\nE.-1\nF.-1)"
+    },
+    {
+        "id": 261.0,
+        "question_content": "Which of the following would you relate to a function call made with an argument passed as its parameter? \nA.function invocation \nB.pass by value\nC.pass by reference \nD.pass by name\nE.-1\nF.-1)"
+    },
+    {
+        "id": 262.0,
+        "question_content": "What is the output of the following code snippet? def func(x = 1, y = 2): x = x + y y += 1 print(x, y) func(y = 2, x = 1)  \nA.1 3 \nB.2 3\nC.The program has a runtime error because x and y are not defined. \nD.3 2\nE.3 3\nF.-1)"
+    },
+    {
+        "id": 263.0,
+        "question_content": "What is the output of the following code snippet? num = 1 def func(): num = 3 print(num) func() print(num) \nA.1 3 \nB.3 1\nC.The program has a runtime error because x is not defined. \nD.1 1\nE.3 3\nF.-1)"
+    },
+    {
+        "id": 264.0,
+        "question_content": "What is the output of the following code snippet? num = 1 def func(): num = num + 3 print(num) func() print(num) \nA.1 4 \nB.4 1\nC.The program has a runtime error because the local variable 'num' referenced before assignment. \nD.1 1\nE.4 4\nF.-1)"
+    },
+    {
+        "id": 265.0,
+        "question_content": "What is the output of the following code snippet? num = 1 def func(): global num num = num + 3 print(num) func() print(num) \nA.1 4 \nB.4 1\nC.The program has a runtime error because the local variable 'num' referenced before assignment. \nD.1 1\nE.4 4\nF.-1)"
+    },
+    {
+        "id": 266.0,
+        "question_content": "What is the output of the following code snippet? \u003e\u003e\u003edef test(x = 1, y = 2): \u003e\u003e\u003e x = x + y \u003e\u003e\u003e y += 1 \u003e\u003e\u003e print(x, y) \u003e\u003e\u003etest()  \nA.1 3 \nB.3 1\nC.The program has a runtime error because x and y are not defined. \nD.1 1\nE.3 3\nF.-1)"
+    },
+    {
+        "id": 267.0,
+        "question_content": "Which of the following function headers is correct? \nA. def f(a = 1, b):  \nB. def f(a = 1, b, c = 2): \nC. def f(a = 1, b = 1, c = 2):  \nD. def f(a = 1, b = 1, c = 2, d):\nE.-1\nF.-1)"
+    },
+    {
+        "id": 272.0,
+        "question_content": "What is the output of the following code snippet? exp = lambda x: x ** 3 print(exp(2)) \nA.6 \nB.222\nC.8 \nD.None of the above\nE.-1\nF.-1)"
+    },
+    {
+        "id": 290.0,
+        "question_content": "myList = [lambda x: x ** 2, lambda x: x ** 3, lambda x: x ** 4]  for f in myList: print(f(3))  \nA.27 81 343 \nB.6 9 12\nC.9 27 81 \nD.8 27 64\nE.-1\nF.-1)"
+    },
+    {
+        "id": 292.0,
+        "question_content": "What is the output of the following code snippet? x = 50  def func(): global x  print('x is', x) x = 2 print('Changed global x to', x) func() print('Value of x is', x)  \nA.x is 50 Changed global x to 2 Value of x is 50 \nB.x is 50 Changed global x to 2 Value of x is 2\nC.x is 50 Changed global x to 50 Value of x is 50 \nD.None of the mentioned\nE.-1\nF.-1)"
+    },
+    {
+        "id": 293.0,
+        "question_content": "Which of the following function calls can be used to invoke the below function definition? def test(a, b, c, d)  \nA. test(1, 2, 3, 4)  \nB. test(a = 1, 2, 3, 4) \nC. test(a = 1, b = 2, c = 3, 4)  \nD. test(a = 1, b = 2, c = 3, d = 4) \nE. test(1, 2, 3, d = 4)\nF.-1)"
+    },
+    {
+        "id": 294.0,
+        "question_content": "What is the output of the following code snippet? def test(a, b=5, c=10): print('a is', a, 'and b is', b, 'and c is', c)  test(3, 7) test(25, c = 24) test(c = 50, a = 100)  \nA.a is 7 and b is 3 and c is 10 a is 25 and b is 5 and c is 24 a is 5 and b is 100 and c is 50 \nB.a is 3 and b is 7 and c is 10 a is 5 and b is 25 and c is 24 a is 50 and b is 100 and c is 5\nC.a is 3 and b is 7 and c is 10 a is 25 and b is 5 and c is 24 a is 100 and b is 5 and c is 50 \nD.None of the above\nE.-1\nF.-1)"
+    },
+    {
+        "id": 296.0,
+        "question_content": "What is the output of the following code snippet? def func(x = 1, y = 2): return x + y, x - y x, y = func(y = 2, x = 1) print(x, y)  \nA.1 3 \nB.3 1\nC.The program has a runtime error because the function returns the multiple values \nD.1-Mar\nE.-1 3\nF.-1)"
+    },
+    {
+        "id": 297.0,
+        "question_content": "What is the output of the following code snippet? def func(): text = 'Welcome' name = (lambda x:text + ' ' + x) return name  msg = func() print(msg('All')) \nA.Welcome All \nB.All Welcome\nC.All \nD.Welcome\nE.-1\nF.-1)"
+    },
+    {
+        "id": 298.0,
+        "question_content": "What is the output of the following code snippet? min = (lambda x, y: x if x \u003c y else y) print(min(10199, 10298))  \nA.9997 \nB.9999\nC.9996 \nD.9998\nE.-1\nF.-1)"
+    },
+    {
+        "id": 299.0,
+        "question_content": "def func(x, y=2): num = 1 for i in range(y): num = num * x return num print (func(4)) print (func(4, 4))  \nA.8 16 \nB.16 256\nC.32 1024 \nD.128 1256\nE.-1\nF.-1)"
+    },
+    {
+        "id": 309.0,
+        "question_content": "What is the output of the following code snippet? nums = range(2, 50) for i in range(2, 8): nums = list(filter(lambda x: x == i or x % i, nums)) print (nums)  \nA. [2, 3, 4, 5, 6, 7, 8]  \nB. [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47] \nC. [2, 3, 5, 6, 7, 10, 15, 19, 20, 27, 35, 41, 49]  \nD. [2, 3, 5, 9, 13, 17, 26, 31, 35, 37, 41, 43, 47, 49]\nE.-1\nF.-1)"
+    },
+    {
+        "id": 310.0,
+        "question_content": "What is the output of the following code snippet? text = 'Welcome to the world of Python' words = text.split() length = list(map(lambda word: len(word), words)) print (length)  \nA. [7, 2, 3, 5, 2, 6]  \nB.[30]\nC. [7, 3, 4, 5, 6, 3]  \nD. [30, 23, 20, 15, 13, 7]\nE.-1\nF.-1)"
+    },
+    {
+        "id": 314.0,
+        "question_content": "What is the ouput of the following code snippet? def f1(): print(\"f2\") def f2(): print(\"f3\") def f3(): print(\"f1\") f3() f2() f1()   \nA.f2 f3 f1 \nB.f2 f1 f3\nC.f3 f2 f1 \nD.f1 f2 f3\nE.-1\nF.-1)"
+    },
+    {
+        "id": 315.0,
+        "question_content": "What is the output of the following code snippet? def f1(): c = 30 d = 20 return c, d a, b = f1() print(a, b)  \nA.SyntaxError \nB. 30 20 c. (30,)(20,) d. 30, 20\nC.-1 \nD.-1\nE.-1\nF.-1)"
+    },
+    {
+        "id": 318.0,
+        "question_content": "What is the output of the following code snippet? p = '*' def multiply(): global p p *= 3 print(3 * p) multiply() print(p) \nA.*** ********* \nB.********* ***\nC.3*** *** \nD.Error\nE.-1\nF.-1)"
+    },
+    {
+        "id": 324.0,
+        "question_content": "What is the output of the following code snippet? def f(i): if i \u003e 2: return i else: return f(0) * f(3)  print(f(2)) \nA.2 \nB.The loop goes to an infinite loop until maximum depth is achieved\nC.3 \nD.4\nE.-1\nF.-1)"
+    },
+    {
+        "id": 337.0,
+        "question_content": "What is the output of the following code snippet?  def fruit(chart): return [\"Apple\", \"Kiwi\"] cart = [\"Orange\", \"Mango\", \"Banana\", \"Grapes\"] new_cart = fruit(cart) print(new_cart)   \nA. [\"Orange\", \"Mango\", \"Banana\", \"Grapes\", \"Apple\", \"Kiwi\"]  \nB. [\"Orange\", \"Mango\", \"Banana\", \"Grapes\"] \nC.Error \nD. [\"Apple\", \"Kiwi\"]\nE.-1\nF.-1)"
+    },
+    {
+        "id": 340.0,
+        "question_content": "What is the output of the following code snippet?  def swap(num1, num2): temp = num1 num1 = num2 num2 = temp num1 = (2) num2 = (5) swap(num1, num2) print(num1, num2)   \nA.5 2 \nB.syntax error\nC. 2, 5  \nD.2 5\nE.-1\nF.-1)"
+    },
+    {
+        "id": 408.0,
+        "question_content": "Which of the following is the right way to do square root of 16 using the math module?  Select one: \nA.import mathprint(math.SQRT(16)) \nB.import mathprint(sqrt(16))\nC.import mathprint(Math.sqrt(16)) \nD.import mathprint(math.sqrt(16))\nE.-1\nF.-1)"
+    },
+    {
+        "id": 448.0,
+        "question_content": "Find the output of the following code? def func(): print('Hi')  Select one: \nA.SyntaxError \nB.Hi\nC.No Output \nD.Hi'\nE.-1\nF.-1)"
+    },
+    {
+        "id": 473.0,
+        "question_content": "Which of the following is true about user- defined functions in Python?  Select one: \nA.The body of the function is indented and is enclosed by the brackets \nB.The name of the functions defined by the user should follow some guidelines\nC.None of the above \nD.Every function should have return statement at the end\nE.-1\nF.-1)"
+    },
+    {
+        "id": 497.0,
+        "question_content": "Which of the following is the correct syntax to define a function with variable length arguments?  Select one: \nA. def fun(vals[]): for i in vals: print(i,end=\" \")  \nB.None of the above\nC. def fun(**vals): for i in vals: print(i,end=\" \")  \nD. def fun(*vals): for i in vals: print(i,end=\" \")\nE.-1\nF.-1)"
+    },
+    {
+        "id": 504.0,
+        "question_content": "Which of the following is true about user- defined functions in Python? Select one: \nA.Every function should have return statement at the end \nB.None of the above\nC.The body of the function is indented and is enclosed by the brackets \nD.The name of the functions defined by the user should follow some guidelines\nE.-1\nF.-1)"
+    },
+    {
+        "id": 512.0,
+        "question_content": "Which of the following code blocks gives an error? Select one: \nA.var=12 def outer(): def inner(): var=2 outer() print(var) print(var) \nB.var=12 def outer(): var=5 def inner(): var=2 outer() print(var)\nC.def outer(): var=5 def inner(): var=2 outer() print(var) \nD.both b and c\nE.-1\nF.-1)"
+    },
+    {
+        "id": 521.0,
+        "question_content": "var=12 def fun1(): def fun2(): nonlocal var var=2 fun2() print(var) fun1() Select one:  \nA. 12 \nB. NameError \nC. SyntaxError \nD. 2 \nE.-1\nF.-1)"
+    },
+    {
+        "id": 536.0,
+        "question_content": "Which of the following coding blocks gives the output as \"Python\"? Select one:   \nA. def fun1(): name=\"a\" def fun2(): nonlocal name name=\"PythonGeeks\" print(name) fun1()  \nB. def fun1(): name=\"a\" def fun2(): nonlocal name=\"PythonGeeks\" fun2() print(name) fun1() \nC. def fun1(): name=\"a\" def fun2(): name=\"PythonGeeks\" fun2() print(name) fun1()  \nD. def fun1(): name=\"a\" def fun2(): nonlocal name name=\"PythonGeeks\" fun2() print(name) fun1()\nE.-1\nF.-1)"
+    },
+    {
+        "id": 538.0,
+        "question_content": "What is the output of the following code? print(int(3.9)) Select one: \nA.3 \nB.3.9\nC.nan \nD.4\nE.-1\nF.-1)"
+    },
+    {
+        "id": 548.0,
+        "question_content": "Which of the following are global variables in the below code? var1=3.4 def func1(): var2=12 def func2(): var3=36 global var4 num4=9 func2() Select one: \nA. var1, var2  \nB. var1, var4 \nC. var1, var3,  \nD. var1, var3, var4\nE.-1\nF.-1)"
+    },
+    {
+        "id": 553.0,
+        "question_content": "n=4 def f1(): n=n**4 print f1() Select one: \nA.error \nB.256\nC.16 \nD.4\nE.-1\nF.-1)"
+    },
+    {
+        "id": 564.0,
+        "question_content": "Which of the following is the right way to do square root of 16 using the math module? Select one: \nA.import math print(math.sqrt(16)) \nB.import math print(sqrt(16))\nC.import math print(math.SQRT(16)) \nD.import math print(Math.sqrt(16))\nE.-1\nF.-1)"
+    },
+    {
+        "id": 568.0,
+        "question_content": "What could be the output of the below code? no=19 def fun1(): no=4 def fun2(): global no no=13 fun2() print(no) fun1() Select one: \nA.4 \nB.19\nC.13 \nD.nan\nE.-1\nF.-1)"
+    },
+    {
+        "id": 581.0,
+        "question_content": "n=3 def fun1(): global n=1  fun1() print Select one: \nA.1 \nB.Error\nC.nan \nD.3\nE.-1\nF.-1)"
+    },
+    {
+        "id": 587.0,
+        "question_content": "Which of the following is the output of the following code? def func1(): num=12 def func2(): nonlocal num num=7 func2() func1() print(num) Select one: \nA.Error \nB.nan\nC.12 \nD.7\nE.-1\nF.-1)"
+    },
+    {
+        "id": 605.0,
+        "question_content": "Which of the following is not a user-defined function? Select one: \nA.string() \nB.all()\nC.sqrt() \nD.sort()\nE.-1\nF.-1)"
+    },
+    {
+        "id": 607.0,
+        "question_content": "x=4 def fun(): a=4 global x x=4 print(a) fun() Select one: \nA.2 \nB.0\nC.nan \nD.4\nE.-1\nF.-1)"
+    },
+    {
+        "id": 615.0,
+        "question_content": "def func1(): var=12  func1() print('var') Select one: \nA.NameError \nB.12\nC.var \nD.None of the above\nE.-1\nF.-1)"
+    },
+    {
+        "id": 616.0,
+        "question_content": "What is the output of the following code? def fun1(): name=\"a\" print(fun1()) print(name) Select one:  \nA.None Error \nB.None a\nC.a a \nD. \"a\" \"a\"\nE.-1\nF.-1)"
+    },
+    {
+        "id": 619.0,
+        "question_content": "bin(6.5) Select one: \nA.No Error \nB.TypeError\nC.SyntaxError \nD.NameError\nE.-1\nF.-1)"
+    },
+    {
+        "id": 623.0,
+        "question_content": "Find the output of the following code? def func(): print('Hi') Select one: \nA.Hi \nB.No Output\nC.SyntaxError \nD.Hi'\nE.-1\nF.-1)"
+    },
+    {
+        "id": 640.0,
+        "question_content": "What is the output of the following code? print(str(True),end = \" \") int(\"4.5\") Select one:  \nA.True 4 \nB.True' ValueError\nC.SyntaxError SyntaxError \nD.True SyntaxError\nE.-1\nF.-1)"
+    },
+    {
+        "id": 644.0,
+        "question_content": "Which of the following statements can be used to define an empty function? Select one: \nA.Both a and b \nB.Pass statement\nC.Empty return statement \nD.print('')\nE.-1\nF.-1)"
+    },
+    {
+        "id": 648.0,
+        "question_content": "name=\"Python\" def func(): name=\"PythonGeeks\" print(name) Select one:  \nA.Error \nB.PythonGeeks\nC.Python \nD.PythonPythonGeeks\nE.-1\nF.-1)"
+    },
+    {
+        "id": 657.0,
+        "question_content": "Identify the code snipped that does not give an error. Select one: \nA.def func1():global varvar=12func1()print(Var) \nB.None of the above\nC.def func1():var=12 func1()print(var) \nD.def func1():global varvar=12func1()print(var)\nE.-1\nF.-1)"
+    },
+    {
+        "id": 658.0,
+        "question_content": "def fun(): x=x+1 print(x)  x=12 print(x) Select one: \nA.Error \nB.12\nC.13 \nD.nan\nE.-1\nF.-1)"
+    },
+    {
+        "id": 659.0,
+        "question_content": "var=3.4 def outer(): var=5.7 def inner(): global var var=1.2 outer() print(var) Select one: \nA.1.2 \nB.5.7\nC.3.4 \nD.12\nE.-1\nF.-1)"
+    },
+    {
+        "id": 669.0,
+        "question_content": "var=12 def outer(): var=5 def inner(): global var var=2 inner() print(var) outer() Select one: \nA.12 \nB.5\nC.2 \nD.Error\nE.-1\nF.-1)"
+    },
+    {
+        "id": 677.0,
+        "question_content": "What will be the value of x when the following statement is executed: x=int(98.6)? \nA 100 \nB. 6 \nC. 98 \nD. 99 \nE.-1\nF.-1)"
+    },
+    {
+        "id": 692.0,
+        "question_content": "For the following code, which of the following statements is true? def printHello(): print(\"Hello\") a=printHello()  \nA.Both printHello() and a refer to the same object. \nB.PrintHello() is a function and a is a variable. None of them are objects.\nC.printHello() and a refer to the different object. \nD.Syntax error! You cannot aassign function\nE.-1\nF.-1)"
+    },
+    {
+        "id": 701.0,
+        "question_content": "Bin(6.5) Select one: \nA.Syntax error \nB.Error Name\nC.TypeError \nD.No Error\nE.-1\nF.-1)"
+    },
+    {
+        "id": 703.0,
+        "question_content": "Which of the following cannot be used to perform conversions in Python? Select one: \nA.Dictionary \nB.Class\nC.Nested Sequence \nD.The if-else\nE.-1\nF.-1)"
+    },
+    {
+        "id": 724.0,
+        "question_content": "Which of the following is not a user-defined function? Select one: \nA.sort() \nB.sqrt()\nC.all() \nD.string()\nE.-1\nF.-1)"
+    },
+    {
+        "id": 726.0,
+        "question_content": "Which of the following is the correct way to calculate the square root of 16 using the math module? Select one: \nA.enter math print(sqrt(16)) \nB.enter the math printout (math.SQRT(16))\nC.enter math printout (Math.sqrt(16)) \nD.enter math print(math.sqrt(16))\nE.-1\nF.-1)"
+    },
+    {
+        "id": 727.0,
+        "question_content": "Which of the following syntax is correct for defining a function with variable length arguments? Select one: \nA. def fun(*vals): for i in vals: print(i,end=\"\")  \nB. def fun(vals[]): for i in vals: print(i,end=\"\") \nC. def fun(**vals): for i in vals: print(i,end=\"\")  \nD.None of the above\nE.-1\nF.-1)"
+    },
+    {
+        "id": 728.0,
+        "question_content": "Which of the following is true about user-defined functions in Python? Select one: \nA.None of the above \nB.The body of the function is indented and enclosed in square brackets\nC.Names of user-defined functions should follow an integer works \nD.Every function should have a return statement at the end\nE.-1\nF.-1)"
+    },
+    {
+        "id": 732.0,
+        "question_content": "Which of the following statements can be used to define an empty function? Select one: \nA.Statement of passing \nB.Both a and b\nC.Empty return statement \nD. in(\")\nE.-1\nF.-1)"
+    },
+    {
+        "id": 740.0,
+        "question_content": "Which of the following is true about local variables? Select one: \nA.Accessible only within that function \nB.Accessible only in the same functions\nC.Accessible throughout the program \nD.Accessible in all functions\nE.-1\nF.-1)"
+    },
+    {
+        "id": 746.0,
+        "question_content": "Which of the following cipher blocks output \"Python\"? Select one:  \nA. def fun1(): name=\"a\" name=\"PythonGeeks\" def fun2(): nonlocal name print(name) fun1()  \nB. def fun1(): name=\"a\" def fun2(): nonlocal name=\"PythonGeeks\" fun20) print(name) fun1() \nC. def fun1(): name=\"a\" def fun2(): name=\"PythonGeeks\" fun20) print(name) fun1()  \nD. def fun1(): name=\"a\" def fun2(): nonlocal name name=\"PythonGeeks\" fun2() print(name) fun10)\nE.-1\nF.-1)"
+    }
+]
