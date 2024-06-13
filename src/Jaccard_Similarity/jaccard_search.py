@@ -1,5 +1,5 @@
 import json
-from formatting import output_color
+
 import nltk
 import os
 from nltk import word_tokenize
@@ -15,7 +15,7 @@ def load_data():
     path_file_tkn = os.path.normpath(os.getcwd() + os.sep + os.pardir)
     path_file_tkn = os.path.join(path_file_tkn, "src")
     path_file_tkn = os.path.join(path_file_tkn, "Data-cache")
-    path_file_tkn = os.path.join(path_file_tkn, "tokenised_question.json")
+    path_file_tkn = os.path.join(path_file_tkn, "tokenized_questions.json")
     data = json.load(open(path_file_tkn, encoding="utf-8"))
     return data
 
@@ -30,7 +30,7 @@ def load_txt_data():
     path_file_tkn = os.path.normpath(os.getcwd() + os.sep + os.pardir)
     path_file_tkn = os.path.join(path_file_tkn, "src")
     path_file_tkn = os.path.join(path_file_tkn, "Data-cache")
-    path_file_tkn = os.path.join(path_file_tkn, "questiontext.json")
+    path_file_tkn = os.path.join(path_file_tkn, "question_id_content.json")
     data = json.load(open(path_file_tkn, encoding="utf-8"))
     return data
 
@@ -56,7 +56,6 @@ def jaccard_score(query_tokens, question_tokens):
 
     return common / union
 
-
 data_global = load_data()
 lemmatizer = WordNetLemmatizer()
 
@@ -69,7 +68,8 @@ def main_jaccard_search(
 
     for ques_id in candidates:
         try:
-            score = jaccard_score(query_tokens, data_global[ques_id])
+            tokenise_question = next((q for q in data_global if q['id'] == ques_id), None)
+            score = jaccard_score(query_tokens, tokenise_question['token_content'])
             if score >= duplicate_threshold:
                 duplicate_candidates.append(ques_id)
             elif score >= threshold:
@@ -79,14 +79,16 @@ def main_jaccard_search(
 
     if verbose == 1:
         question_texts = load_txt_data()
-        print(output_color.GREEN + "(JACC)Duplicate questions : ")
+        print("(JACC)Duplicate questions : ")
         for id in duplicate_candidates:
-            print(id + " : " + question_texts[id])
-        print(output_color.END)
+            question = next((q for q in data_global if q['id'] == id), None)
+            print(id + " : " + question['question_content'])
+        print()
 
-        print(output_color.DARKCYAN + "(JACC)Potential Candidates: ")
+        print("(JACC)Potential Candidates: ")
         for id in passed_candidates:
-            print(id + " : " + question_texts[id])
-        print(output_color.END)
+            question = next((q for q in data_global if q['id'] == id), None)
+            print(id + " : " + question['question_content'])
+        print()
 
     return duplicate_candidates, passed_candidates
